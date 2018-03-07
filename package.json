@@ -1,0 +1,21 @@
+{
+  "name": "prevent-smoosh",
+  "version": "1.0.0",
+  "description": "Don't let TC39 use smoosh or smooshMap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/prevent-smoosh.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
