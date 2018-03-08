@@ -5,7 +5,7 @@ The purpose of this library is to prevent TC39 from adding Array.prototype.smoos
 ## Install
 
 ```
-<script type="text/javascript" src="https://unpkg.com/prevent-smoosh@1.0.0/index.js"></script>
+<script type="text/javascript" src="https://unpkg.com/prevent-smoosh@2.0.0/index.js"></script>
 ```
 
 ## Usage
