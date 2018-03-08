@@ -12,7 +12,7 @@ The purpose of this library is to prevent TC39 from adding Array.prototype.smoos
 
 `array.smoosh()` is the same as `array[0]` so if you have `array[0]` somewhere, just replace it.
 
-`array.smooshMap(f)` is the same as `f(array[0])`.
+`array.smooshMap(f)` is the same as `f(array[0])` unless `array` is empty.
 
 That should do the trick.
 

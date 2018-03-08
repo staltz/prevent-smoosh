@@ -12,3 +12,14 @@ test('smooshMap picks the first item then maps it', t => {
   const arr = [5, 6, 7, 8];
   t.equals(arr.smooshMap(x => x * 0.5), 2.5);
 });
+
+test('smooshMap does not call fn on an empty array', t => {
+  t.plan(1);
+  const arr = [];
+  t.equals(
+    arr.smooshMap(x => {
+      throw new Error('Unexpected');
+    }),
+    undefined,
+  );
+});
